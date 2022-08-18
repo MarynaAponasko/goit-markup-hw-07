@@ -1,16 +1,10 @@
-.duties {
+.section--no-padding-top {
     padding-top: 0;
 }
 
-.duties__title {
-    @include font(36px, var(--bold-font), 42.19px);
-    letter-spacing: 0.03em;
-    color: var(--primary-font-color);
-    margin-bottom: 50px;
-    text-align: center;
-}
 
-.duties__list {
+
+.duties {
     display: flex;
 }
 

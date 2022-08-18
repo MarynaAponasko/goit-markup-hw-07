@@ -1,16 +1,9 @@
-.team {
+.section--light-background {
     background-color: var(--light-background-colol);
 }
 
-.team__title {
-    @include font(36px, var(--bold-font), 42.19px);
-    letter-spacing: 0.03em;
-    color: var(--primary-font-color);
-    text-align: center;
-    margin-bottom: 50px;
-}
 
-.team__list {
+.team{
     display: flex;
     gap: 30px;
 }
@@ -27,14 +20,14 @@
     padding-bottom: 30px;
 }
 
-.team__name {
+.team__title {
     @include font(16px, var(--medium-font), 18.75px);
     letter-spacing: 0.03em;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.team__position {
+.team__text {
     @include font(16px,var(--normal-font), 18.75px);
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);

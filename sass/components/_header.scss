@@ -51,6 +51,7 @@
 .menu-list__link {
     padding-top: 32px;
     padding-bottom: 32px;
+    text-decoration: none;
     color: var(--primary-font-color);
     transition: color var(--transmition-time) var(--transition-function);
     &:hover, &:focus {
@@ -62,6 +63,7 @@
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--secondary-font-color);
+    text-decoration: none;
     display: flex;
     align-items: center;
     transition: color var(--transmition-time) var(--transition-function);
@@ -72,8 +74,11 @@
 
 
 
-.current {
+.menu-list__link_current {
     color: var(--axent-colour);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
     &::after {
             content: "";
             position: absolute;
@@ -87,11 +92,6 @@
         }
 }
 
-.menu-list__item_current{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    position: relative;
-}
 
 
 .contacts-list {
@@ -99,7 +99,7 @@
     list-style: none;
 }
 
-.contact-icon {
+.сontacts-list__icon {
     fill: currentColor;
     margin-right: 10px;
 }
